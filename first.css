@@ -5,7 +5,7 @@ body {
       rgba(255, 255, 255, 0.6),
       rgba(255, 255, 255, 0.6)
     ),
-    url("https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/US_Air_Force_Logo_Solid_Colour.svg/800px-US_Air_Force_Logo_Solid_Colour.svg.png");
+    url("https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/US_Air_Force_Logo_Solid_Colour.svg/1050px-US_Air_Force_Logo_Solid_Colour.svg.png");
   margin: 0px;
 }
 
@@ -81,7 +81,7 @@ body {
 
 /* Fonts */
 h1, h2, h3, h4, h5, h6 {
-  font-family: Dosis, 'HelveticaNeue', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Times New Roman', Georgia, Cambria, Helvetica, Arial, sans-serif;
   font-weight: 400;
   color: #2A3F5F;
 }
@@ -93,7 +93,7 @@ h1, h2, h3, h4, h5, h6 {
 .example-container h5,
 .example-container h6 {
   font-weight: 300;
-  font-family: "Open Sans", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Times New Roman', Georgia, Cambria, Helvetica, Arial, sans-serif;
   color: rgb(50, 50, 50);
 }
 
@@ -113,7 +113,7 @@ h1, h2, h3, h4, h5, h6 {
 .toc ul li a {
   background-color: white;
   color: #506784;
-  font-family: Dosis, 'HelveticaNeue', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Times New Roman', Georgia, Cambria, Helvetica, Arial, sans-serif;
 }
 
 .toc ul li {
