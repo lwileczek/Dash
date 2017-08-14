@@ -81,7 +81,7 @@ body {
 
 /* Fonts */
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Times New Roman', Georgia, Cambria, Helvetica, Arial, sans-serif;
+  font-family: Arial, Georgia, Cambria, Helvetica,'Times New Roman', sans-serif;
   font-weight: 400;
   color: #2A3F5F;
 }
@@ -93,7 +93,7 @@ h1, h2, h3, h4, h5, h6 {
 .example-container h5,
 .example-container h6 {
   font-weight: 300;
-  font-family: 'Times New Roman', Georgia, Cambria, Helvetica, Arial, sans-serif;
+  font-family: Arial, Georgia, Cambria, Helvetica,'Times New Roman', sans-serif;
   color: rgb(50, 50, 50);
 }
 
@@ -113,7 +113,7 @@ h1, h2, h3, h4, h5, h6 {
 .toc ul li a {
   background-color: white;
   color: #506784;
-  font-family: 'Times New Roman', Georgia, Cambria, Helvetica, Arial, sans-serif;
+  font-family: Arial, Georgia, Cambria, Helvetica,'Times New Roman', sans-serif;
 }
 
 .toc ul li {
