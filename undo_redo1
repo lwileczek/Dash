@@ -1,0 +1,11 @@
+body {
+  background:
+    linear-gradient(
+      rgba(235, 235, 235, 0.6),
+      rgba(235, 235, 235, 0.6)
+    );
+}
+
+._dash-undo-redo {
+  display: none;
+}
