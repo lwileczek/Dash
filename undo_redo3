@@ -1,0 +1,81 @@
+body {
+  color: #506784;
+  background:
+    linear-gradient(
+      rgba(235, 235, 235, 0.6),
+      rgba(235, 235, 235, 0.6)
+    );/*,
+    url("http://www.colorcombos.com/images/colors/F3F3F3.png");*/
+  margin: 0px;
+}
+
+._dash-loading {
+  text-align: center;
+  margin-top: 50px;
+}
+
+/* Example Container */
+
+.example-container {
+  border: thin lightgrey solid;
+  padding: 15px;
+  overflow-x: scroll;
+}
+
+/* Links
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.content a {
+  color: #506784;
+  background-color: rgb(245, 245, 245);
+  text-decoration: none;
+  padding-left: 4px;
+  padding-right: 4px;
+  border-radius: 1px;
+}
+
+.content p > code,
+.content li > code{
+    background-color: rgb(243, 246, 251);
+    border: 0.5px rgb(224, 232, 242) solid;
+    border-radius: 4px;
+    font-size: 1.8rem;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+
+.content-container {
+  background-color: white;
+  border-radius: 5px;
+  font-size: 1.7rem;
+  box-shadow: rgb(240, 240, 240) 5px 5px 5px 0px;
+  border: thin solid rgb(240, 240, 240);
+  margin-bottom: 100px;
+}
+
+@media (min-width: 0px) {
+  .content {
+     margin-left: 20px;
+     margin-right: 20px;
+     margin-top: 20px;
+     margin-bottom: 40px;
+  }
+
+  .container-width {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .toc-chapters {
+    column-count: 1;
+  }
+
+  .header .links {
+    display: none;
+  }
+}
+
+._dash-undo-redo {
+  display: none;
+}
