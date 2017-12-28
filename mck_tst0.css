@@ -1,0 +1,76 @@
+body {
+  color: #506784;
+  background:
+    linear-gradient(
+      rgba(235, 235, 235, 0.6),
+      rgba(235, 235, 235, 0.6)
+    );
+  margin: 0px;
+}
+
+
+/* Links
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+a {
+  color: #1EAEDB; 
+  text-decoration: none;
+  cursor: pointer;}
+a:hover {
+  color: #0FA0CE;
+  text-decoration: underline;}
+  
+  
+  
+/* Tables
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+table {
+  border-collapse: collapse;
+}
+th,
+td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid #E1E1E1; }
+th:first-child,
+td:first-child {
+  padding-left: 0; }
+th:last-child,
+td:last-child {
+  padding-right: 0; }
+
+
+
+/* Example Container 
+--------------------------------------------------*/
+.example-container {
+  border: thin lightgrey solid;
+  padding: 15px;
+  overflow-x: scroll;
+}
+
+
+
+/* Fonts 
+-------------------------------------------------*/
+h1, h2, h3, h4, h5, h6 {
+  font-family: Arial, Cambria, Corbel, 'Times New Roman', Helvetica, Georgia;
+  font-weight: 400;
+  color: #2A3F5F;
+}
+
+.example-container h1,
+.example-container h2,
+.example-container h3,
+.example-container h4,
+.example-container h5,
+.example-container h6 {
+  font-weight: 300;
+  font-family: Arial, Cambria, Corbel, 'Times New Roman', Helvetica, Georgia;
+}
+
+
+
+/* hide undo-redo button*/
+._dash-undo-redo {
+  display: none;
+}
